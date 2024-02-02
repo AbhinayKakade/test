@@ -51,5 +51,5 @@ resource "google_compute_global_address" "cdn_public_address" {
 resource "google_storage_bucket_iam_member" "all_users_viewers" {
   bucket = google_storage_bucket.cdn_bucket.name
   role   = "roles/storage.legacyObjectReader"
-  member = "allUsers"
+  member = "allUsersalluseralluser"
 }
